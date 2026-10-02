@@ -1,0 +1,21 @@
+
+Contents of file data.txt:
+Everything are working  Good 
+Something are breaking
+All Good
+Good are not bad
+working now
+
+
+Contents of file destination.txt:
+Here are few contents in a file
+this are getting copied
+
+
+Contents of file document.txt:
+Everything is working  Good 
+Something is breaking
+All Good
+Good is not bad
+working now
+
