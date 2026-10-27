@@ -1,0 +1,12 @@
+2026-10-26 17:25:28,190 - ERROR - An error occurred during the operation:
+Traceback (most recent call last):
+  File "C:\Users\bavdo\AppData\Local\Temp\ipykernel_21472\756901687.py", line 15, in perform_risky_operation
+    result = 10 / 0
+             ~~~^~~
+ZeroDivisionError: division by zero
+2026-10-26 17:27:26,616 - ERROR - An error occurred during the operation:
+Traceback (most recent call last):
+  File "C:\Users\bavdo\AppData\Local\Temp\ipykernel_37620\1230627153.py", line 15, in perform_risky_operation
+    result = 10 / 0
+             ~~~^~~
+ZeroDivisionError: division by zero
