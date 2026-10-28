@@ -14,7 +14,7 @@ def square_numbers():
 def cube_numbers():
     for i in range(5):
         time.sleep(1.5)
-        print(f'Square: {i * i * i}')
+        print(f'Cube: {i * i * i}')
 
 if __name__ == "__main__":
 

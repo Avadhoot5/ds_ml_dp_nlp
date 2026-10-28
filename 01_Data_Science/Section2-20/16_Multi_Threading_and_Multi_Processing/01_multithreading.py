@@ -33,5 +33,3 @@ print(f'{(end_time - start_time):5f}')
 
 # print_numbers()        
 # print_letters()
-
-
