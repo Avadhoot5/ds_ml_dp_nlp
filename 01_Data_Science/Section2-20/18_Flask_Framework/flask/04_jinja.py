@@ -1,5 +1,4 @@
-from flask import Flask, render_template, request
-
+from flask import Flask, render_template, request, redirect, url_for
 
 '''
 {{ }} expressions to print output in html
@@ -26,13 +25,13 @@ def form():
     
     return render_template('form.html')
 
-@app.route('/submit', methods=['GET', 'POST'])
-def submit():
-    if (request.method == 'POST'):
-        name = request.form['name']
-        return f'Hello {name}'
+# @app.route('/submit', methods=['GET', 'POST'])
+# def submit():
+#     if (request.method == 'POST'):
+#         name = request.form['name']
+#         return f'Hello {name}'
     
-    return render_template('form.html')
+#     return render_template('form.html')
 
 # Variable Rule
 
@@ -62,6 +61,21 @@ def successres(score):
 @app.route('/successif/<int:score>')
 def successif(score):
     return render_template('result_if.html', results=score)
+
+# change url dynamically
+@app.route('/submit', methods=['GET', 'POST'])
+def submit():
+    if request.method == 'POST':
+        science = float(request.form['science'])
+        maths = float(request.form['maths'])
+        c = float(request.form['c'])
+        datascience = float(request.form['datascience'])
+
+        marks = (science + maths + c + datascience) / 4
+    else:
+        return render_template('getresult.html')
+    
+    return redirect(url_for('successres', score=marks))
 
 
 if __name__=="__main__":
