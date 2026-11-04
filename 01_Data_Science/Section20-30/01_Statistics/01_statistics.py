@@ -11,6 +11,10 @@
 
 # Population V/S Sample
 
+# Measure of Dispersion - Theory
+
+# Sample Mean VS Population mean
+# Sample Variance VS Population Variance
 
 
 
