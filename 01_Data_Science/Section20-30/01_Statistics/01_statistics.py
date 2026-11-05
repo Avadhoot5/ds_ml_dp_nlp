@@ -16,6 +16,12 @@
 # Sample Mean VS Population mean
 # Sample Variance VS Population Variance
 
+# Variable
+# Random Variable
+# Histograms- Descriptive Statistics
+# Percentile And Quartiles- Descriptive Statistics
+# 5 Number Summary-Descriptive Statistics
+# Correlation And Covariance
 
 
 
