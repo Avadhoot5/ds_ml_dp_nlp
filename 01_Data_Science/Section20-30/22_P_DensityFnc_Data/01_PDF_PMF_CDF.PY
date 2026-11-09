@@ -12,4 +12,5 @@
 # Log Normal Distribution
 # Power Law Distribution
 # Pareto Distribution
-
+# Central Limit Theorem
+# Estimates
